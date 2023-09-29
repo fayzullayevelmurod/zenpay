@@ -1,0 +1,1215 @@
+@media (max-width: 1450px) {
+    #technologies {
+        .business_wrapper {
+            .your_business_left {
+                width: calc(100% - 644px);
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .your_business_right {
+                width: 584px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    #home {
+        .home_left {
+            h1 {
+                margin: 0 auto 48px;
+                text-align: center;
+            }
+
+            p {
+                max-width: 100%;
+                text-align: center;
+            }
+
+            .btn_2 {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .count {
+                justify-content: center;
+            }
+
+            .next_link {
+                display: none;
+            }
+        }
+
+        .home_right_wrapper {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 598px;
+        }
+
+        .home_right {
+            .home_card_1 {
+                top: 0;
+            }
+
+            .home_card_2 {
+                top: 383px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    #solutions {
+        .card_wrapper {
+            .cards {
+                flex-wrap: wrap;
+                gap: 30px;
+                justify-content: center;
+
+                .card_line_2 {
+                    width: 100%;
+                    height: 1px;
+                }
+            }
+        }
+    }
+
+    #technologies {
+        .business_wrapper {
+            flex-direction: column-reverse;
+
+            .your_business_left {
+                width: 100%;
+                text-align: center;
+
+                img {
+                    width: auto;
+                    height: 505px;
+                }
+            }
+
+            .your_business_right {
+                width: 100%;
+                text-align: center;
+
+                span {
+                    display: inline-flex;
+                    width: auto;
+                    margin: o auto;
+                }
+
+                h2 {
+                    max-width: 100%;
+                    text-align: center;
+                }
+
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                }
+
+                .business_btns {
+                    width: 100%;
+                    gap: 24px;
+
+                    .business_btn {
+                        width: calc(50% - 12px);
+                    }
+                }
+            }
+        }
+    }
+
+    #payments {
+        .payments_wrapper {
+            padding: 30px 0;
+
+            .payments_right {
+                width: 500px;
+                margin-right: 30px;
+            }
+        }
+    }
+
+    #connection {
+        .connect_wrapper {
+            flex-direction: column;
+
+            .connect_left {
+                width: 100%;
+                text-align: center;
+
+                h2 {
+                    max-width: 100%;
+                    text-align: center;
+                }
+
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                }
+            }
+
+            .connect_right {
+                width: 100%;
+                gap: 20px;
+
+                .connect_card {
+                    width: calc(50% - 10px);
+
+                    h2 {
+                        max-width: 100%;
+                    }
+
+                    p {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    #payments {
+        .payments_wrapper {
+            .payments_left {
+                img {
+                    width: 550px;
+                }
+            }
+
+            .payments_right {
+                width: 350px;
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    #solutions {
+        .card_wrapper {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+
+                .card_line {
+                    width: 100%;
+                    height: 1px;
+                }
+
+                .card_item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer_wrapper {
+            padding: 30px;
+
+            .footer_in {
+                justify-content: space-between;
+
+                .logo {
+                    img {
+                        height: 32px;
+                    }
+                }
+
+                .menu {
+                    gap: 30px;
+                    margin-left: 0;
+
+                    li a {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 115%;
+                    }
+                }
+
+                .btn_1 {
+                    padding: 10px 12px;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    #payments {
+        .payments_wrapper {
+            .payments_left {
+                .mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    #payments {
+        margin-top: 80px;
+
+        .payments_wrapper {
+            .payments_left {
+                img {
+                    display: none;
+                }
+
+                .mobile {
+                    display: block;
+                    width: 384px;
+                }
+            }
+
+            .payments_right {
+                width: 286px;
+                margin-right: 30px;
+
+                span {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 115%;
+                    margin-bottom: 12px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    header {
+        .bars {
+            display: none;
+        }
+
+        .mobile_menu {
+            display: none;
+        }
+    }
+
+    #solutions {
+        .card_wrapper {
+            .bg_mobile {
+                display: none;
+            }
+        }
+    }
+
+    #technologies {
+        .business_wrapper {
+            .your_business_left {
+                .sm {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .active_body_from_menu {
+        overflow: hidden;
+    }
+
+    .btn_2 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 125%;
+        gap: 6px;
+    }
+
+    header {
+        .main_container {
+            max-width: calc(100% - 60px);
+            padding-left: 0;
+            padding-right: 0;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.10);
+            background: #18181B;
+            padding: 20px;
+            margin-bottom: 40px;
+
+            .btn_1 {
+                display: none;
+            }
+        }
+
+        .logo {
+            img {
+                height: 32px;
+            }
+        }
+
+        .menu {
+            display: none !important;
+        }
+
+        .bars {
+            width: 35px;
+            height: 25px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .mobile_menu {
+            position: fixed;
+            top: 109px;
+            width: 100%;
+            height: calc(100% - 109px);
+            left: 0;
+            z-index: 10;
+            display: none;
+            background: #0D0D0D;
+
+            ul {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding-top: 40px;
+                gap: 54px;
+
+                .link {
+                    color: #FFF;
+                    font-family: "Ubuntu", sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 115%;
+                }
+            }
+        }
+
+        @keyframes mobile_menu {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .mobile_menu.active {
+            display: block;
+            animation: mobile_menu .2s linear 1;
+        }
+
+        @keyframes noActive {
+            0% {
+                display: block;
+                opacity: 1;
+            }
+
+            100% {
+                display: block;
+                opacity: 0;
+            }
+        }
+
+        .mobile_menu.noActive {
+            display: none;
+            animation: noActive .2s linear 1;
+        }
+    }
+
+    #home {
+        margin-bottom: 80px;
+
+        .main_container {
+            max-width: calc(100% - 60px);
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .home_left {
+            h1 {
+                font-size: 54px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%;
+                margin-bottom: 30px;
+
+                img {
+                    height: 71px;
+                    transform: translateY(20px);
+                }
+            }
+
+            p {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 135%;
+                margin-bottom: 40px;
+            }
+
+            .btn_2 {
+                margin-bottom: 40px;
+            }
+
+            .count {
+                gap: 30px;
+
+                .count_item {
+                    gap: 12px;
+                    width: calc(50% - 31px);
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal
+                    }
+
+                    .text {
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 135%;
+                    }
+                }
+            }
+        }
+
+        .home_right_wrapper {
+            width: 100%;
+            height: auto;
+        }
+
+        .home_right {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            .home_right_card {
+                position: static;
+                width: calc(50% - 15px);
+                height: auto;
+            }
+
+            .home_card_1 {
+                order: 1;
+            }
+
+            .home_card_2 {
+                order: 3;
+            }
+
+            .home_card_3 {
+                order: 2;
+            }
+
+            .home_card_4 {
+                order: 4;
+            }
+        }
+    }
+
+    #solutions {
+        margin-bottom: 80px;
+
+        .card_wrapper {
+            padding: 0px 30px 30px;
+            border-radius: 20px;
+
+            .bg_1,
+            .bg_2 {
+                display: none;
+            }
+
+            .bg_mobile {
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 255px;
+            }
+
+            .title {
+                margin-bottom: 30px;
+
+                span {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                }
+            }
+
+            .cards {
+                .card_item {
+                    img {
+                        margin-bottom: 20px;
+                    }
+
+                    .card_title {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                        margin-bottom: 20px;
+                    }
+
+                    .card_desription {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    #technologies {
+        .business_wrapper {
+            .your_business_left {
+                img {
+                    display: none;
+                }
+
+                .sm {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .your_business_right {
+                span {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 115%;
+                    margin-bottom: 12px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                    margin-bottom: 30px;
+                }
+
+                .business_btns {
+                    .business_btn {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 115%;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #connection {
+        .connect_wrapper {
+            gap: 40px;
+
+            .connect_left {
+                h2 {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .connect_right {
+                align-items: stretch;
+
+                .connect_card {
+                    padding: 20px;
+
+                    img {
+                        width: 99px;
+                        height: 88px;
+                        margin-bottom: 20px;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    .modal {
+        .modal_content {
+            width: 520px;
+
+            .modal_head {
+                padding: 20px 60px;
+
+                .modal_title {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                }
+
+                .modal_close {
+                    top: 24px;
+                    right: 30px;
+                }
+            }
+
+            .modal_body {
+                .modal_description {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                    margin-bottom: 30px;
+                }
+
+                a {
+                    padding: 16px 20px;
+                    border-radius: 12px;
+                    align-items: center;
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        margin-top: 80px;
+
+        .main_container {
+            max-width: calc(100% - 30px);
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        .footer_wrapper {
+            .footer_in {
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    #payments {
+        .payments_wrapper {
+            flex-direction: column-reverse;
+            padding-bottom: 0;
+
+            .payments_left {
+                .mobile {
+                    position: static;
+                }
+            }
+
+            .payments_right {
+                width: 100%;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 30px;
+
+                span {
+                    width: 290px;
+                    margin: 0 auto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 115%;
+                    margin-bottom: 12px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    #home {
+        .home_left {
+            h1 {
+                .mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #solutions {
+        .card_wrapper {
+            .title {
+                span {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .btn_2 {
+        width: 100%;
+        left: 0;
+        transform: translate(0);
+        justify-content: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 125%;
+    }
+
+    header {
+        .main_container {
+            max-width: calc(100% - 30px);
+        }
+
+        .logo {
+            height: 29px;
+
+            img {
+                height: 29px;
+            }
+        }
+    }
+
+    #home {
+        .main_container {
+            max-width: calc(100% - 30px);
+        }
+
+        .home_left {
+            h1 {
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%;
+                margin-bottom: 30px;
+
+                img {
+                    display: none;
+                }
+
+                .mobile {
+                    display: block;
+                    height: 43px;
+                    margin: 0 auto;
+                    transform: translateY(0);
+                    margin-top: 10px;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 135%;
+                margin-bottom: 40px;
+            }
+
+            .btn_2 {
+                margin-bottom: 40px;
+            }
+
+            .count {
+                gap: 20px;
+                align-items: stretch;
+                margin-bottom: 50px;
+
+                .line {
+                    height: auto;
+                    width: 2px;
+                }
+
+                .count_item {
+                    width: calc(50% - 11px);
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 8px;
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    .text {
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 135%;
+                    }
+                }
+            }
+        }
+
+        .home_right {
+            gap: 9.27px;
+
+            .home_right_card {
+                width: calc(50% - (9.27px / 2));
+            }
+        }
+    }
+
+    #solutions {
+        .main_container {
+            max-width: calc(100% - 30px);
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .card_wrapper {
+            padding: 0px 15px 30px;
+
+            .title {
+                span {
+                    padding: 10px 15px;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                }
+            }
+
+            .cards {
+                gap: 30px;
+
+                .card_item {
+                    padding-bottom: 0;
+
+                    img {
+                        width: 64px;
+                        height: 64px;
+                    }
+
+                    .card_title {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                        margin-bottom: 15px;
+                    }
+
+                    .card_desription {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    #technologies {
+        .main_container {
+            width: calc(100% - 30px);
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .business_wrapper {
+            gap: 40px;
+
+            .your_business_right {
+                span {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 115%;
+                    margin-bottom: 12px;
+                }
+
+                h2 {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                    margin-bottom: 30px;
+                }
+
+                .business_btns {
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .business_btn {
+                        width: 100%;
+                        padding: 18px 21px;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 115%;
+
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #payments {
+        .main_container {
+            max-width: calc(100% - 30px);
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    #connection {
+        .main_container {
+            max-width: calc(100% - 30px);
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .connect_wrapper {
+            gap: 40px;
+
+            .connect_left {
+                h2 {
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%; 
+                    margin-bottom: 30px;
+                }
+            }
+
+            .connect_right {
+                flex-direction: column;
+                gap: 20px;
+
+                .connect_card {
+                    width: 100%;
+                    padding: 20px 15px;
+                    border-radius: 16px;
+
+                    img {
+                        width: 64px;
+                        height: 64px;
+                        margin-bottom: 20px;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer_wrapper {
+            .footer_in {
+                .menu {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .modal {
+        .modal_content {
+            width: calc(100% - 36px);
+
+            .modal_head {
+                .modal_title {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 125%;
+                }
+            }
+
+            .modal_body {
+                padding: 40px 20px;
+
+                .modal_description {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 135%;
+                }
+
+                a {
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 450px) {
+    #technologies {
+        .business_wrapper {
+            .your_business_left {
+                .mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #technologies {
+        .business_wrapper {
+            .your_business_left {
+                .sm {
+                    display: none;
+                }
+
+                .mobile {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    #payments {
+        .payments_wrapper {
+            flex-direction: column-reverse;
+
+            .payments_left {
+                .mobile {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
